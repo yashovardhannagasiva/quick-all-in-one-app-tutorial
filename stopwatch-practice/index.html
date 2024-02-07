@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Stopwatch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="stopwatch-container">
+      <div class="container">
+        <div id="startStopButton" onclick="startStop()">Start</div>
+        <div id="lapButton" onclick="lap()">Lap</div>
+        <div id="resetButton" onclick="reset()">Reset</div>
+      </div>
+
+      <div id="timeDisplay">00:00:00<span id="milliseconds">.000</span></div>
+      
+    </div>
+    <div id="laps"> <b>Total Laps Count :</b> </div>
+    <script src="script.js"></script>
+  </body>
+</html>
